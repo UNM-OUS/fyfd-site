@@ -1,0 +1,7 @@
+page_types:
+  ffd_event: \DigraphCMS_Plugins\unmous\ous_ffd\FFDEvent
+  ffd_student_signup: \DigraphCMS_Plugins\unmous\ous_ffd\FFDStudentSignup
+  ffd_faculty_signup: \DigraphCMS_Plugins\unmous\ous_ffd\FFDFacultySignup
+
+unm:
+  block_unknown_netids: false
