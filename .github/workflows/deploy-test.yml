@@ -1,7 +1,7 @@
 name: Deploy to test
 on:
   push:
-    branches-ignore: [v2]
+    branches-ignore: [main]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
