@@ -15,3 +15,8 @@ DirectoryIndex index.html index.php
     Header unset ETag
 </IfModule>
 FileETag None
+
+# Specify PHP 7.4
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php
+</IfModule>
